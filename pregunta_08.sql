@@ -43,3 +43,4 @@
 --
 SELECT strftime('%Y',c23),avg(c21) from tbl2
 GROUP BY 1
+ORDER BY 1;
